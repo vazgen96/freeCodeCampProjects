@@ -1,0 +1,53 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    
+}
+
+.container {
+    width: 300px;
+    background-color: burlywood;
+    margin: 50px auto;
+    padding: 20px 20px;
+}
+
+.container h1 {
+    letter-spacing: 1px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.container p {
+    font-style: italic;
+}
+
+.divider {
+    width: 90%;
+    border-bottom: 5px solid rgb(138, 18, 18);
+    margin: 0 auto;
+}
+
+.menu h2 {
+    margin-bottom: 7px;
+}
+
+.menu img {
+    display: block;
+    margin: auto;
+}
+
+.menu p {
+    margin: 7px;
+}
+
+.menu p:last-of-type{
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
